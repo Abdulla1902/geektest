@@ -3,6 +3,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('geekapp.urls')),  # Замените 'todo_app' на имя вашего приложения
+    path('api/', include('geekapp.urls')),
 ]
 
